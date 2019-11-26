@@ -135,6 +135,7 @@ pub mod dpi;
 pub mod error;
 pub mod event;
 pub mod event_loop;
+pub mod heck;
 mod icon;
 pub mod monitor;
 mod platform_impl;
