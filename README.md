@@ -1,13 +1,17 @@
 # winit - Cross-platform window creation and management in Rust
 
-[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)
-[![Docs.rs](https://docs.rs/winit/badge.svg)](https://docs.rs/winit)
-[![Build Status](https://travis-ci.org/rust-windowing/winit.svg?branch=master)](https://travis-ci.org/rust-windowing/winit)
-[![Build status](https://ci.appveyor.com/api/projects/status/hr89but4x1n3dphq/branch/master?svg=true)](https://ci.appveyor.com/project/Osspial/winit/branch/master)
+[![Crates.io](https://img.shields.io/crates/v/glzrn.svg)](https://crates.io/crates/glzrn)
+[![Docs.rs](https://docs.rs/glzrn/badge.svg)](https://docs.rs/glzrn)
+[![Build Status](https://travis-ci.org/rust-windowing/glzrn.svg?branch=master)](https://travis-ci.org/rust-windowing/glzrn)
+[![Build status](https://ci.appveyor.com/api/projects/status/hr89but4x1n3dphq/branch/master?svg=true)](https://ci.appveyor.com/project/Osspial/glzrn/branch/master)
+
+This is a fork of `winit` made mostly from my own irritation.  It is
+intended to be complete and present a pleasing API to use for video
+games.  Hopefully nothing ever comes of it.  Don't use it.
 
 ```toml
 [dependencies]
-winit = "0.20.0-alpha4"
+glzrn = "0.1.0"
 ```
 
 ## [Documentation](https://docs.rs/winit)

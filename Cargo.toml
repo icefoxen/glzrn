@@ -1,14 +1,14 @@
 [package]
-name = "winit"
-version = "0.20.0-alpha4"
+name = "glzrn"
+version = "0.1.0"
 authors = ["The winit contributors", "Pierre Krieger <pierre.krieger1708@gmail.com>"]
 description = "Cross-platform window creation library."
 edition = "2018"
 keywords = ["windowing"]
 license = "Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/rust-windowing/winit"
-documentation = "https://docs.rs/winit"
+repository = "https://github.com/icefoxen/glzrn"
+documentation = "https://docs.rs/glzrn"
 categories = ["gui"]
 
 [package.metadata.docs.rs]
