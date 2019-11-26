@@ -1,4 +1,4 @@
-# winit - Cross-platform window creation and management in Rust
+# glzrn - Cross-platform window creation and management in Rust
 
 [![Crates.io](https://img.shields.io/crates/v/glzrn.svg)](https://crates.io/crates/glzrn)
 [![Docs.rs](https://docs.rs/glzrn/badge.svg)](https://docs.rs/glzrn)
@@ -13,6 +13,37 @@ games.  Hopefully nothing ever comes of it.  Don't use it.
 [dependencies]
 glzrn = "0.1.0"
 ```
+
+## Goals
+
+ * Works
+ * Works reliably on desktop, web, and maybe mobile
+ * Makes it easy to write video games
+
+## Anti-goals
+
+ * Peak performance no matter what
+ * Optimal for general-purpose GUI stuff
+ * Smooth resizing, 'cause in a perfect world I resize my video games
+   once, ever.
+ * Multithreading, because some platforms have Opinions about event
+   threads
+ * OpenGL context creation -- that's the job of a different lib
+
+## Inspirations
+
+ * SDL2
+ * GLFW
+
+## TODO
+
+ * Make mouse events not dumb
+ * Make hidpi not dumb
+ * Make web loop work well
+ * Non-thread-safe polling + callback API
+ * Simplify, simplify, simplify
+
+# Below here is old
 
 ## [Documentation](https://docs.rs/winit)
 
